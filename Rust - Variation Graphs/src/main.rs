@@ -35,7 +35,7 @@ fn main() {
 
     // Creo il grafo a partire dal gfa
     let _graph: HashGraph = HashGraph::from_gfa(&gfa);
-    //--------------------------------------------------------
+    //----------------------------------------------------------
 
 
     //----------------------------------------------------------
@@ -97,7 +97,7 @@ fn main() {
 
 
     //----------------------------------------------------------
-    // Esempio 3: navigare il grafo
+    // Esempio 4: navigare il grafo
 
     // Creo un iteratore sugli handles/nodi del grafo
     println!("Handle disordinati:");
