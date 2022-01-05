@@ -19,3 +19,4 @@ Una raccolta di materiale utile per tutti gli studenti che iniziano a lavorare
 la gestione della memoria in Rust è diversa da quella di altri
 linguaggi. Alcune strutture dati richiedono un'implmentazione peculiare.
 *  [articolo su SIMD](https://neosmart.net/blog/2021/using-simd-acceleration-in-rust-to-create-the-worlds-fastest-tac/)
+*  [simple SDSL](https://github.com/jltsiren/simple-sds) Succinct data structures
