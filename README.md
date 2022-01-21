@@ -15,6 +15,7 @@ Una raccolta di materiale utile per tutti gli studenti che iniziano a lavorare
 *  [Rust Book](https://doc.rust-lang.org/stable/book/) il libro ufficiale su Rust
 *  [Gentle Intro](https://stevedonovan.github.io/rust-gentle-intro/readme.html) guida introduttiva
 *  [Rust by Example](https://doc.rust-lang.org/rust-by-example/) diversi esempi introduttivi su come usare Rust
+*  [Rustlings](https://github.com/rust-lang/rustlings) diversi esercizi introduttivi per imparare Rust (per ogni tipo di esercizio sono riportati i riferimenti al libro ufficiale)
 *  [Nota su strutture dati in
    Rust](https://eli.thegreenplace.net/2021/rust-data-structures-with-circular-references/)
 la gestione della memoria in Rust è diversa da quella di altri
