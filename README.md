@@ -30,6 +30,7 @@ linguaggi. Alcune strutture dati richiedono un'implmentazione peculiare.
 * [itertools](https://crates.io/crates/itertools)  diverse utilities
 * [log](https://crates.io/crates/log) per effettuare logging
 * [simple SDSL](https://github.com/jltsiren/simple-sds) strutture dati succinte
-*  [pyo3](https://crates.io/crates/pyo3) binding python-rust
+* [pyo3](https://crates.io/crates/pyo3) binding python-rust
+* [niffler](https://github.com/luizirber/niffler/) per gestire file compressi
 
 Per maggiori dettagli su come utilizzare i Variation Graphs in Rust si faccia riferimento alla sottocartella **Rust - Variation Graphs**, che contiene un progetto d'esempio con la spiegazione di alcune funzionalità chiave.
