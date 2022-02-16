@@ -23,8 +23,6 @@ cd {recipe-name}
 # 4b) creare/modificare il file meta.yaml, contenente le informazioni generali sulla recipe
 # 4c) nel caso di un aggiornamento, ricordarsi di incrementare il numero di build
 
-    test: ATTENZIONE (bio)conda fa schifo, quindi prima leggere qui https://github.com/bioconda/bioconda-utils/issues/642#issuecomment-600884997
-
 # 5) testare la recipe
 cd ../..
 ./bootstrap.py /tmp/miniconda
