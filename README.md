@@ -35,3 +35,14 @@ linguaggi. Alcune strutture dati richiedono un'implmentazione peculiare
 * [niffler](https://github.com/luizirber/niffler/) per gestire file compressi
 
 Per maggiori dettagli su come utilizzare i Variation Graphs in Rust si faccia riferimento alla sottocartella **Rust - Variation Graphs**, che contiene un progetto d'esempio con la spiegazione di alcune funzionalità chiave.
+
+# Read samples simulation
+* Short genomic reads (Illumina):
+   * https://github.com/nh13/DWGSIM
+* RNA-Seq:
+   * https://github.com/ldenti/RNASeqReadSimulator (simulatore naive)
+   * https://confluence.sammeth.net/display/SIM/Home (simulatore che modella "RNA-Seq experiments in silico")
+   * https://github.com/biomedbigdata/ASimulatoR (simulatore con supporto nativo per eventi di splicing alternativo)
+* Long reads:
+   * https://github.com/pfaucon/PBSIM-PacBio-Simulator
+   * https://github.com/yukiteruono/pbsim2
