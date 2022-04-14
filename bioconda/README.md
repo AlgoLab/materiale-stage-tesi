@@ -23,13 +23,11 @@ cd {recipe-name}
 # 4b) creare/modificare il file meta.yaml, contenente le informazioni generali sulla recipe
 # 4c) nel caso di un aggiornamento, ricordarsi di incrementare il numero di build
 
-# 5) testare la recipe
-cd ../..
-./bootstrap.py /tmp/miniconda
-source ~/.config/bioconda/activate
-bioconda-utils lint --packages {recipe-name}
-bioconda-utils build [–docker] --mulled-test --packages {recipe-name}
-# Attenzione: se uno di questi comandi dovesse fallire, leggere qui https://github.com/bioconda/bioconda-utils/issues/642#issuecomment-600884997
+# 5) testare la recipe - see https://bioconda.github.io/contributor/building-locally.html
+mamba create -n bioconda -c conda-forge -c bioconda bioconda-utils
+conda activate bioconda
+bioconda-utils lint --git-range master
+bioconda-utils build --docker --mulled-test --git-range master
 
 # 6) commit&push
 git commit
@@ -38,6 +36,3 @@ git push --set-upstream origin {recipe-name}
 # 7) Creare una pull request (via github)
 # 7bis) Nel caso di un aggiornamento, è possibile pushare direttamente verso l'upstream, git push upstream {recipe-name}
 ```
-
-### Note
-Ho testato il tutto qualche mese fa, bisogna controllare che i comandi siano ancora validi. Appena avrò necessità di creare/aggiornare un pacchetto, controllo.
