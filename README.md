@@ -33,6 +33,7 @@ linguaggi. Alcune strutture dati richiedono un'implmentazione peculiare
 * [simple SDSL](https://github.com/jltsiren/simple-sds) strutture dati succinte
 * [pyo3](https://crates.io/crates/pyo3) binding python-rust
 * [niffler](https://github.com/luizirber/niffler/) per gestire file compressi
+* [arewebioyet](https://rust4bio.github.io/arewebioyet) un altro elenco di risorse rust per la bioinformatica
 
 Per maggiori dettagli su come utilizzare i Variation Graphs in Rust si faccia riferimento alla sottocartella **Rust - Variation Graphs**, che contiene un progetto d'esempio con la spiegazione di alcune funzionalità chiave.
 
