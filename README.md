@@ -6,6 +6,7 @@ Una raccolta di materiale utile per tutti gli studenti che iniziano a lavorare
 
 # Python
 
+*  [Think Python](https://github.com/AllenDowney/ThinkPython2) anche [in Italiano](https://github.com/AllenDowney/ThinkPythonItalian)
 *  [Biopython](https://biopython.org/)
 
 # Rust
