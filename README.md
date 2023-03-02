@@ -50,3 +50,10 @@ Per maggiori dettagli su come utilizzare i Variation Graphs in Rust si faccia ri
 * Long reads:
    * https://github.com/pfaucon/PBSIM-PacBio-Simulator
    * https://github.com/yukiteruono/pbsim2
+
+# Introduction to Deep Learning
+* Online courses
+   * https://course.fast.ai/
+* Youtube
+   * [Alfredo Canziani](https://www.youtube.com/@alfcnz) (Profesor at New York University, course with Yann LeCun)
+   * [CS231n Winter 2016, Fei-Fei Li & Andrej Karpathy & Justin Johnson](https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC) Highly recommended to watch first 6 lessons.
