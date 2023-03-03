@@ -57,3 +57,7 @@ Per maggiori dettagli su come utilizzare i Variation Graphs in Rust si faccia ri
 * Youtube
    * [Alfredo Canziani](https://www.youtube.com/@alfcnz) (Profesor at New York University, course with Yann LeCun)
    * [CS231n Winter 2016, Fei-Fei Li & Andrej Karpathy & Justin Johnson](https://www.youtube.com/watch?v=NfnWJUyUJYU&list=PLkt2uSq6rBVctENoVBg1TpCC7OQi31AlC) Highly recommended to watch first 6 lessons.
+* [Awesome-Deep-Learning: a curated list of books, courses, video lectures, and more](https://github.com/ChristosChristofidis/awesome-deep-learning)
+* Papers:
+   * [The NLP index](https://index.quantumstat.com/)
+   * [paperwithcode.com](https://paperswithcode.com/)
