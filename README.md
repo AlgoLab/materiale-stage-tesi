@@ -62,3 +62,5 @@ Per maggiori dettagli su come utilizzare i Variation Graphs in Rust si faccia ri
    * [The NLP index](https://index.quantumstat.com/)
    * [paperwithcode.com](https://paperswithcode.com/)
 * [CNN Explainer: Learn Convolutional Neural Network (CNN) in your browser!](https://poloclub.github.io/cnn-explainer/)
+* Books:
+   * [The little book of Deep Learning](https://fleuret.org/francois/lbdl.html)
