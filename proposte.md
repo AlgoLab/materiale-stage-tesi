@@ -18,7 +18,7 @@ The student will be in charge of generating these visualizations to use the larg
 
 **Requirements:** Familiarity with fasta and fastq formats. Programming in one of these languages C, C++, or Rust.
 
-*Per informazioni*: Luca Denti <luca.denti@unimib.it>
+*Per informazioni*: Jorge Avila Cartes <jorge.avilacartes@unimib.it>
 
 ## Classification of genomic sequences with metric learning 
 In a classification problem, instances (genomic sequences) are associated with a label. From a supervised learning point of view, the goal is to assign a label to an input sequence by learning a probability distribution among the universe of labels, while from a metric learning point of view, the goal is to learn vector representations (embeddings) for each input, such that closer vector representations share the same label.
@@ -26,7 +26,7 @@ In this project, the student will classify Sars-CoV-2 sequences into clades by u
 
 **Requirements:** Familiarity with fasta format. Proficiency in Python. Basic knowledge of deep learning, and familiarity with TensorFlow or Pytorch.
 
-*Per informazioni*: Luca Denti <luca.denti@unimib.it>
+*Per informazioni*: Jorge Avila Cartes <jorge.avilacartes@unimib.it>
 
 ## Proposte di stage sulla gestione di formati di file
 
