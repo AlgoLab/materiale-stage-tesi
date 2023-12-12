@@ -4,8 +4,12 @@
 
 L'obiettivo dello stage è quello di confrontare l'indice [ropebwt2](https://github.com/lh3/ropebwt2) con il più recente indice [movi](https://github.com/mohsenzakeri/movi). Lo studente deve saper programmare in C++ e avere confidenza con i formati FASTA e FASTQ.
 
+*Per informazioni*: Luca Denti <luca.denti@unimib.it>
+
 ## Identificazione di eventi di splicing utilizzando algoritmi di flusso su pantrascrittomi
 L'obiettivo dello stage è quello di estendere pantas ed esplorare la chiamata di eventi di splicing utilizzando grafi del pantrascrittoma locali ai geni e un algoritmo di flusso per l'identificazione dei potenziali trascritti coinvolti nell'evento. Lo studente deve saper programmare in python e avere confidenza con il formato gfa (formato gaf è un plus).
+
+*Per informazioni*: Luca Denti <luca.denti@unimib.it>
 
 ##  Scalable Visualization of k-mer distributions with the Chaos Game Representation of DNA
 
@@ -14,12 +18,15 @@ The student will be in charge of generating these visualizations to use the larg
 
 **Requirements:** Familiarity with fasta and fastq formats. Programming in one of these languages C, C++, or Rust.
 
+*Per informazioni*: Luca Denti <luca.denti@unimib.it>
+
 ## Classification of genomic sequences with metric learning 
 In a classification problem, instances (genomic sequences) are associated with a label. From a supervised learning point of view, the goal is to assign a label to an input sequence by learning a probability distribution among the universe of labels, while from a metric learning point of view, the goal is to learn vector representations (embeddings) for each input, such that closer vector representations share the same label.
 In this project, the student will classify Sars-CoV-2 sequences into clades by using metric learning, comparing two loss functions: contrastive-loss and triplet-loss, and benchmark the result against a supervised approach.
 
 **Requirements:** Familiarity with fasta format. Proficiency in Python. Basic knowledge of deep learning, and familiarity with TensorFlow or Pytorch.
 
+*Per informazioni*: Luca Denti <luca.denti@unimib.it>
 
 ## Proposte di stage sulla gestione di formati di file
 
@@ -31,9 +38,18 @@ Il primo prototipo può essere in Python, ma sarebbe gradita un'implementazione 
 5. `gaxtk`: programma CLI per la gestione di file GAF, GAM, etc.
 Il primo protitipo può essere in Python, ma sarebbe gradita un'implementazione in Rust.
 
-
+*Per informazioni*: Gianluca Della Vedova <gianluca.dellavedova@unimib.it>
 
 # Proposte di tesi (Laurea Magistrale in Informatica)
 
-1.  Formato [PGVF](https://github.com/pangenome/pgvf-spec). In questo caso bisogna fare un'analisi critica della specifica e progettare un formato binario, oltre a scrivere un parser e progettare una rappresentazione interna di un allineamento fra grafi
-2.  Estendere [Handlegraph](https://pangenome.github.io/handlegraph/index.html) con una nuova rappresentazione interna compressa del grafo, ispirata da [WebGraph](https://webgraph.di.unimi.it/)
+## Sviluppo del formato [PGVF](https://github.com/pangenome/pgvf-spec). 
+
+In questo caso bisogna fare un'analisi critica della specifica e progettare un formato binario, oltre a scrivere un parser e progettare una rappresentazione interna di un allineamento fra grafi.
+
+*Per informazioni*: Gianluca Della Vedova <gianluca.dellavedova@unimib.it>
+   
+## Rappresentazione compressi di grafi di pangenomi
+
+L'obiettivo è estendere [Handlegraph](https://pangenome.github.io/handlegraph/index.html) con una nuova rappresentazione interna compressa del grafo, ispirata da [WebGraph](https://webgraph.di.unimi.it/)
+
+*Per informazioni*: Gianluca Della Vedova <gianluca.dellavedova@unimib.it>
