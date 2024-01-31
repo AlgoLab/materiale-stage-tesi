@@ -11,7 +11,7 @@ L'obiettivo dello stage è quello di estendere pantas ed esplorare la chiamata d
 
 *Per informazioni*: Luca Denti <luca.denti@unimib.it>
 
-##  Scalable Visualization of k-mer distributions with the Chaos Game Representation of DNA
+##  [Visualization] Scalable Visualization of k-mer distributions with the Chaos Game Representation of DNA
 
 This project aims to visualize the k-mer distribution of sequences and samples of reads by leveraging the Chaos Game Representation of DNA (CGR) — this encoding orders k-mers in a square and its frequencies are used as colors in the image. A similar encoding was recently developed, named  ComplexCGR, with the difference that k-mers are assigned a polar coordinate in a circumference.
 The student will be in charge of generating these visualizations to use the largest k possible (k<31) with both CGR and ComplexCGR.
@@ -20,11 +20,21 @@ The student will be in charge of generating these visualizations to use the larg
 
 *Per informazioni*: Jorge Avila Cartes <jorge.avilacartes@unimib.it>
 
-## Classification of genomic sequences with metric learning 
+## [Deep Learning] Classification of genomic sequences with metric learning 
 In a classification problem, instances (genomic sequences) are associated with a label. From a supervised learning point of view, the goal is to assign a label to an input sequence by learning a probability distribution among the universe of labels, while from a metric learning point of view, the goal is to learn vector representations (embeddings) for each input, such that closer vector representations share the same label.
 In this project, the student will classify Sars-CoV-2 sequences into clades by using metric learning, comparing two loss functions: contrastive-loss and triplet-loss, and benchmark the result against a supervised approach.
 
 **Requirements:** Familiarity with fasta format. Proficiency in Python. Basic knowledge of deep learning, and familiarity with TensorFlow or Pytorch.
+
+*Per informazioni*: Jorge Avila Cartes <jorge.avilacartes@unimib.it>
+
+
+## [API for Deep Learning]
+The goal of the stage is to create an API to serve our deep learning models for genomic classification.
+The student will develop an API with `FastAPI`, and a Frontend with `Streamlit` (or `shiny`, `gridio`, `holoviz-panel`), and release it as a pip installable package. 
+
+**Requirements:** Proficiency in Python, in particular the student must be familiarized with `classes` (inheritance), `decorators`. Familiarity with relational databases.
+Basic understanding of deep learning or machine learning is enough.
 
 *Per informazioni*: Jorge Avila Cartes <jorge.avilacartes@unimib.it>
 
